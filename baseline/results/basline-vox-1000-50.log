@@ -1,0 +1,518 @@
+2020-09-05 01:14:58,838 [steps/nnet3/train_raw_dnn.py:35 - <module> - INFO ] Starting raw DNN trainer (train_raw_dnn.py)
+2020-09-05 01:14:58,854 [steps/nnet3/train_raw_dnn.py:196 - train - INFO ] Arguments for the experiment
+{'backstitch_training_interval': 1,
+ 'backstitch_training_scale': 0.0,
+ 'cleanup': True,
+ 'cmvn_opts': None,
+ 'combine_sum_to_one_penalty': 0.0,
+ 'command': 'queue.pl -q tiger.gpu.q@tiger04  -q tiger.gpu.q@tiger05 -q tiger.gpu.q@tiger06',
+ 'compute_average_posteriors': False,
+ 'compute_per_dim_accuracy': False,
+ 'dir': 'exp/xvector_nnet_1a',
+ 'do_final_combination': True,
+ 'dropout_schedule': '0,0@0.20,0.1@0.50,0',
+ 'egs_command': None,
+ 'egs_dir': 'exp/xvector_nnet_1a/egs',
+ 'egs_opts': None,
+ 'egs_stage': 0,
+ 'email': None,
+ 'exit_stage': None,
+ 'feat_dir': None,
+ 'final_effective_lrate': 0.0001,
+ 'frames_per_eg': 1,
+ 'image_augmentation_opts': None,
+ 'initial_effective_lrate': 0.001,
+ 'input_model': None,
+ 'max_lda_jobs': 10,
+ 'max_models_combine': 20,
+ 'max_objective_evaluations': 30,
+ 'max_param_change': 2.0,
+ 'minibatch_size': '64',
+ 'momentum': 0.5,
+ 'nj': 4,
+ 'num_epochs': 3.0,
+ 'num_jobs_compute_prior': 10,
+ 'num_jobs_final': 6,
+ 'num_jobs_initial': 3,
+ 'num_jobs_step': 1,
+ 'online_ivector_dir': None,
+ 'preserve_model_interval': 10,
+ 'presoftmax_prior_scale_power': -0.25,
+ 'prior_subset_size': 20000,
+ 'proportional_shrink': 10.0,
+ 'rand_prune': 4.0,
+ 'remove_egs': False,
+ 'reporting_interval': 0.1,
+ 'samples_per_iter': 400000,
+ 'shuffle_buffer_size': 1000,
+ 'srand': 123,
+ 'stage': -1,
+ 'targets_scp': None,
+ 'train_opts': [],
+ 'use_dense_targets': True,
+ 'use_gpu': 'wait'}
+2020-09-05 01:14:58,859 [steps/nnet3/train_raw_dnn.py:316 - train - INFO ] Preparing the initial network.
+kangjiawen has deleted job 1484080
+Caught a signal: Interrupted system call , deleting SGE task: 1484080 and exiting
+2020-09-05 01:22:06,800 [steps/nnet3/train_raw_dnn.py:35 - <module> - INFO ] Starting raw DNN trainer (train_raw_dnn.py)
+2020-09-05 01:22:06,815 [steps/nnet3/train_raw_dnn.py:196 - train - INFO ] Arguments for the experiment
+{'backstitch_training_interval': 1,
+ 'backstitch_training_scale': 0.0,
+ 'cleanup': True,
+ 'cmvn_opts': None,
+ 'combine_sum_to_one_penalty': 0.0,
+ 'command': 'queue.pl -q tiger.gpu.q@tiger04  -q tiger.gpu.q@tiger05 -q tiger.gpu.q@tiger06',
+ 'compute_average_posteriors': False,
+ 'compute_per_dim_accuracy': False,
+ 'dir': 'exp/xvector_nnet_1a',
+ 'do_final_combination': True,
+ 'dropout_schedule': '0,0@0.20,0.1@0.50,0',
+ 'egs_command': None,
+ 'egs_dir': 'exp/xvector_nnet_1a/egs',
+ 'egs_opts': None,
+ 'egs_stage': 0,
+ 'email': None,
+ 'exit_stage': None,
+ 'feat_dir': None,
+ 'final_effective_lrate': 0.0001,
+ 'frames_per_eg': 1,
+ 'image_augmentation_opts': None,
+ 'initial_effective_lrate': 0.001,
+ 'input_model': None,
+ 'max_lda_jobs': 10,
+ 'max_models_combine': 20,
+ 'max_objective_evaluations': 30,
+ 'max_param_change': 2.0,
+ 'minibatch_size': '64',
+ 'momentum': 0.5,
+ 'nj': 4,
+ 'num_epochs': 3.0,
+ 'num_jobs_compute_prior': 10,
+ 'num_jobs_final': 6,
+ 'num_jobs_initial': 3,
+ 'num_jobs_step': 1,
+ 'online_ivector_dir': None,
+ 'preserve_model_interval': 10,
+ 'presoftmax_prior_scale_power': -0.25,
+ 'prior_subset_size': 20000,
+ 'proportional_shrink': 10.0,
+ 'rand_prune': 4.0,
+ 'remove_egs': False,
+ 'reporting_interval': 0.1,
+ 'samples_per_iter': 400000,
+ 'shuffle_buffer_size': 1000,
+ 'srand': 123,
+ 'stage': -1,
+ 'targets_scp': None,
+ 'train_opts': [],
+ 'use_dense_targets': True,
+ 'use_gpu': 'wait'}
+2020-09-05 01:22:06,819 [steps/nnet3/train_raw_dnn.py:316 - train - INFO ] Preparing the initial network.
+kangjiawen has deleted job 1484091
+Caught a signal: Interrupted system call , deleting SGE task: 1484091 and exiting
+2020-09-05 21:09:55,721 [steps/nnet3/train_raw_dnn.py:35 - <module> - INFO ] Starting raw DNN trainer (train_raw_dnn.py)
+2020-09-05 21:09:55,744 [steps/nnet3/train_raw_dnn.py:196 - train - INFO ] Arguments for the experiment
+{'backstitch_training_interval': 1,
+ 'backstitch_training_scale': 0.0,
+ 'cleanup': True,
+ 'cmvn_opts': None,
+ 'combine_sum_to_one_penalty': 0.0,
+ 'command': 'queue.pl -q tiger.gpu.q@tiger04  -q tiger.gpu.q@tiger05 -q tiger.gpu.q@tiger06',
+ 'compute_average_posteriors': False,
+ 'compute_per_dim_accuracy': False,
+ 'dir': 'exp/xvector_nnet_1a',
+ 'do_final_combination': True,
+ 'dropout_schedule': '0,0@0.20,0.1@0.50,0',
+ 'egs_command': None,
+ 'egs_dir': 'exp/xvector_nnet_1a/egs',
+ 'egs_opts': None,
+ 'egs_stage': 0,
+ 'email': None,
+ 'exit_stage': None,
+ 'feat_dir': None,
+ 'final_effective_lrate': 0.0001,
+ 'frames_per_eg': 1,
+ 'image_augmentation_opts': None,
+ 'initial_effective_lrate': 0.001,
+ 'input_model': None,
+ 'max_lda_jobs': 10,
+ 'max_models_combine': 20,
+ 'max_objective_evaluations': 30,
+ 'max_param_change': 2.0,
+ 'minibatch_size': '64',
+ 'momentum': 0.5,
+ 'nj': 4,
+ 'num_epochs': 3.0,
+ 'num_jobs_compute_prior': 10,
+ 'num_jobs_final': 6,
+ 'num_jobs_initial': 3,
+ 'num_jobs_step': 1,
+ 'online_ivector_dir': None,
+ 'preserve_model_interval': 10,
+ 'presoftmax_prior_scale_power': -0.25,
+ 'prior_subset_size': 20000,
+ 'proportional_shrink': 10.0,
+ 'rand_prune': 4.0,
+ 'remove_egs': False,
+ 'reporting_interval': 0.1,
+ 'samples_per_iter': 400000,
+ 'shuffle_buffer_size': 1000,
+ 'srand': 123,
+ 'stage': -1,
+ 'targets_scp': None,
+ 'train_opts': [],
+ 'use_dense_targets': True,
+ 'use_gpu': 'wait'}
+2020-09-05 21:09:55,750 [steps/nnet3/train_raw_dnn.py:316 - train - INFO ] Preparing the initial network.
+kangjiawen has deleted job 1484103
+Caught a signal: Interrupted system call , deleting SGE task: 1484103 and exiting
+2020-09-05 21:23:22,390 [steps/nnet3/train_raw_dnn.py:35 - <module> - INFO ] Starting raw DNN trainer (train_raw_dnn.py)
+2020-09-05 21:23:22,405 [steps/nnet3/train_raw_dnn.py:196 - train - INFO ] Arguments for the experiment
+{'backstitch_training_interval': 1,
+ 'backstitch_training_scale': 0.0,
+ 'cleanup': True,
+ 'cmvn_opts': None,
+ 'combine_sum_to_one_penalty': 0.0,
+ 'command': 'queue.pl -q tiger.gpu.q@tiger03  -q tiger.gpu.q@tiger05 -q tiger.gpu.q@tiger06',
+ 'compute_average_posteriors': False,
+ 'compute_per_dim_accuracy': False,
+ 'dir': 'exp/xvector_nnet_1a',
+ 'do_final_combination': True,
+ 'dropout_schedule': '0,0@0.20,0.1@0.50,0',
+ 'egs_command': None,
+ 'egs_dir': 'exp/xvector_nnet_1a/egs',
+ 'egs_opts': None,
+ 'egs_stage': 0,
+ 'email': None,
+ 'exit_stage': None,
+ 'feat_dir': None,
+ 'final_effective_lrate': 0.0001,
+ 'frames_per_eg': 1,
+ 'image_augmentation_opts': None,
+ 'initial_effective_lrate': 0.001,
+ 'input_model': None,
+ 'max_lda_jobs': 10,
+ 'max_models_combine': 20,
+ 'max_objective_evaluations': 30,
+ 'max_param_change': 2.0,
+ 'minibatch_size': '64',
+ 'momentum': 0.5,
+ 'nj': 4,
+ 'num_epochs': 3.0,
+ 'num_jobs_compute_prior': 10,
+ 'num_jobs_final': 6,
+ 'num_jobs_initial': 3,
+ 'num_jobs_step': 1,
+ 'online_ivector_dir': None,
+ 'preserve_model_interval': 10,
+ 'presoftmax_prior_scale_power': -0.25,
+ 'prior_subset_size': 20000,
+ 'proportional_shrink': 10.0,
+ 'rand_prune': 4.0,
+ 'remove_egs': False,
+ 'reporting_interval': 0.1,
+ 'samples_per_iter': 400000,
+ 'shuffle_buffer_size': 1000,
+ 'srand': 123,
+ 'stage': -1,
+ 'targets_scp': None,
+ 'train_opts': [],
+ 'use_dense_targets': True,
+ 'use_gpu': 'wait'}
+2020-09-05 21:23:22,409 [steps/nnet3/train_raw_dnn.py:316 - train - INFO ] Preparing the initial network.
+2020-09-05 21:27:18,355 [steps/nnet3/train_raw_dnn.py:354 - train - INFO ] Training will run for 3.0 epochs = 59 iterations
+2020-09-05 21:27:18,356 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 0/58   Jobs: 3   Epoch: 0.00/3.0 (0.0% complete)   lr: 0.003000   shrink: 0.97000
+2020-09-05 21:38:43,243 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 1/58   Jobs: 3   Epoch: 0.03/3.0 (1.1% complete)   lr: 0.002923   shrink: 0.97077
+kangjiawen has registered the job 1484162 for deletion
+Caught a signal: Interrupted system call , deleting SGE task: 1484162 and exiting
+kangjiawen has deleted job 1484163
+Caught a signal: Interrupted system call , deleting SGE task: 1484163 and exiting
+kangjiawen has registered the job 1484159 for deletion
+Caught a signal: Interrupted system call , deleting SGE task: 1484159 and exiting
+2020-09-05 21:41:20,249 [steps/nnet3/train_raw_dnn.py:35 - <module> - INFO ] Starting raw DNN trainer (train_raw_dnn.py)
+2020-09-05 21:41:20,263 [steps/nnet3/train_raw_dnn.py:196 - train - INFO ] Arguments for the experiment
+{'backstitch_training_interval': 1,
+ 'backstitch_training_scale': 0.0,
+ 'cleanup': True,
+ 'cmvn_opts': None,
+ 'combine_sum_to_one_penalty': 0.0,
+ 'command': 'queue.pl -q tiger.gpu.q@tiger06  -q tiger.gpu.q@tiger05 -q tiger.gpu.q@tiger03',
+ 'compute_average_posteriors': False,
+ 'compute_per_dim_accuracy': False,
+ 'dir': 'exp/xvector_nnet_1a',
+ 'do_final_combination': True,
+ 'dropout_schedule': '0,0@0.20,0.1@0.50,0',
+ 'egs_command': None,
+ 'egs_dir': 'exp/xvector_nnet_1a/egs',
+ 'egs_opts': None,
+ 'egs_stage': 0,
+ 'email': None,
+ 'exit_stage': None,
+ 'feat_dir': None,
+ 'final_effective_lrate': 0.0001,
+ 'frames_per_eg': 1,
+ 'image_augmentation_opts': None,
+ 'initial_effective_lrate': 0.001,
+ 'input_model': None,
+ 'max_lda_jobs': 10,
+ 'max_models_combine': 20,
+ 'max_objective_evaluations': 30,
+ 'max_param_change': 2.0,
+ 'minibatch_size': '64',
+ 'momentum': 0.5,
+ 'nj': 4,
+ 'num_epochs': 3.0,
+ 'num_jobs_compute_prior': 10,
+ 'num_jobs_final': 6,
+ 'num_jobs_initial': 3,
+ 'num_jobs_step': 1,
+ 'online_ivector_dir': None,
+ 'preserve_model_interval': 10,
+ 'presoftmax_prior_scale_power': -0.25,
+ 'prior_subset_size': 20000,
+ 'proportional_shrink': 10.0,
+ 'rand_prune': 4.0,
+ 'remove_egs': False,
+ 'reporting_interval': 0.1,
+ 'samples_per_iter': 400000,
+ 'shuffle_buffer_size': 1000,
+ 'srand': 123,
+ 'stage': 1,
+ 'targets_scp': None,
+ 'train_opts': [],
+ 'use_dense_targets': True,
+ 'use_gpu': 'wait'}
+2020-09-05 21:41:20,269 [steps/nnet3/train_raw_dnn.py:354 - train - INFO ] Training will run for 3.0 epochs = 59 iterations
+2020-09-05 21:41:20,269 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 1/58   Jobs: 3   Epoch: 0.03/3.0 (1.1% complete)   lr: 0.002923   shrink: 0.97077
+2020-09-05 21:50:38,368 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 2/58   Jobs: 3   Epoch: 0.07/3.0 (2.2% complete)   lr: 0.002849   shrink: 0.97151
+2020-09-05 21:59:30,222 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 3/58   Jobs: 3   Epoch: 0.10/3.0 (3.4% complete)   lr: 0.002776   shrink: 0.97224
+2020-09-05 22:09:33,413 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 4/58   Jobs: 3   Epoch: 0.13/3.0 (4.5% complete)   lr: 0.002705   shrink: 0.97295
+2020-09-05 22:18:02,543 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 5/58   Jobs: 3   Epoch: 0.17/3.0 (5.6% complete)   lr: 0.002636   shrink: 0.97364
+2020-09-05 22:30:55,270 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 6/58   Jobs: 3   Epoch: 0.20/3.0 (6.7% complete)   lr: 0.002569   shrink: 0.97431
+2020-09-05 22:39:13,248 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 7/58   Jobs: 3   Epoch: 0.24/3.0 (7.9% complete)   lr: 0.002503   shrink: 0.97497
+2020-09-05 22:47:19,361 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 8/58   Jobs: 3   Epoch: 0.27/3.0 (9.0% complete)   lr: 0.002439   shrink: 0.97561
+2020-09-05 22:57:56,721 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 9/58   Jobs: 3   Epoch: 0.30/3.0 (10.1% complete)   lr: 0.002377   shrink: 0.97623
+2020-09-05 23:08:18,691 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 10/58   Jobs: 4   Epoch: 0.34/3.0 (11.2% complete)   lr: 0.003088   shrink: 0.96912
+2020-09-05 23:17:41,999 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 11/58   Jobs: 4   Epoch: 0.38/3.0 (12.7% complete)   lr: 0.002983   shrink: 0.97017
+2020-09-05 23:38:01,196 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 12/58   Jobs: 4   Epoch: 0.43/3.0 (14.2% complete)   lr: 0.002882   shrink: 0.97118
+2020-09-05 23:47:46,510 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 13/58   Jobs: 4   Epoch: 0.47/3.0 (15.7% complete)   lr: 0.002785   shrink: 0.97215
+2020-09-05 23:55:03,658 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 14/58   Jobs: 4   Epoch: 0.52/3.0 (17.2% complete)   lr: 0.002690   shrink: 0.97310
+queue.pl: job failed with status 255, log is in exp/xvector_nnet_1a/log/train.14.3.log
+2020-09-05 23:58:58,096 [steps/libs/common.py:236 - background_command_waiter - ERROR ] Command exited with status 1: queue.pl -q tiger.gpu.q@tiger06  -q tiger.gpu.q@tiger05 -q tiger.gpu.q@tiger03  exp/xvector_nnet_1a/log/train.14.3.log                     nnet3-train --use-gpu=wait --read-cache=exp/xvector_nnet_1a/cache.14                       --print-interval=10                     --momentum=0.5                     --max-param-change=2.0                     --backstitch-training-scale=0.0                     --l2-regularize-factor=0.25                     --backstitch-training-interval=1                     --srand=137                       "nnet3-copy --learning-rate=0.00269014288054 --scale=0.973098571195 exp/xvector_nnet_1a/14.raw - |nnet3-copy --edits='set-dropout-proportion name=* proportion=0.0' - - |" "ark,bg:nnet3-copy-egs --frame=0               scp:exp/xvector_nnet_1a/egs/egs.49.scp ark:- |             nnet3-shuffle-egs --buffer-size=1000             --srand=137 ark:- ark:- |              nnet3-merge-egs --minibatch-size=64 ark:- ark:- |"                     exp/xvector_nnet_1a/15.3.raw
+steps/nnet3/train_raw_dnn.py --stage=1 --cmd=queue.pl -q tiger.gpu.q@tiger06  -q tiger.gpu.q@tiger05 -q tiger.gpu.q@tiger03 --trainer.optimization.proportional-shrink 10 --trainer.optimization.momentum=0.5 --trainer.optimization.num-jobs-initial=3 --trainer.optimization.num-jobs-final=6 --trainer.optimization.initial-effective-lrate=0.001 --trainer.optimization.final-effective-lrate=0.0001 --trainer.optimization.minibatch-size=64 --trainer.srand=123 --trainer.max-param-change=2 --trainer.num-epochs=3 --trainer.dropout-schedule=0,0@0.20,0.1@0.50,0 --trainer.shuffle-buffer-size=1000 --egs.frames-per-eg=1 --egs.dir=exp/xvector_nnet_1a/egs --cleanup.remove-egs false --cleanup.preserve-model-interval=10 --use-gpu=wait --dir=exp/xvector_nnet_1a
+['steps/nnet3/train_raw_dnn.py', '--stage=1', '--cmd=queue.pl -q tiger.gpu.q@tiger06  -q tiger.gpu.q@tiger05 -q tiger.gpu.q@tiger03', '--trainer.optimization.proportional-shrink', '10', '--trainer.optimization.momentum=0.5', '--trainer.optimization.num-jobs-initial=3', '--trainer.optimization.num-jobs-final=6', '--trainer.optimization.initial-effective-lrate=0.001', '--trainer.optimization.final-effective-lrate=0.0001', '--trainer.optimization.minibatch-size=64', '--trainer.srand=123', '--trainer.max-param-change=2', '--trainer.num-epochs=3', '--trainer.dropout-schedule=0,0@0.20,0.1@0.50,0', '--trainer.shuffle-buffer-size=1000', '--egs.frames-per-eg=1', '--egs.dir=exp/xvector_nnet_1a/egs', '--cleanup.remove-egs', 'false', '--cleanup.preserve-model-interval=10', '--use-gpu=wait', '--dir=exp/xvector_nnet_1a']
+2020-09-06 02:27:32,386 [steps/nnet3/train_raw_dnn.py:35 - <module> - INFO ] Starting raw DNN trainer (train_raw_dnn.py)
+2020-09-06 02:27:32,416 [steps/nnet3/train_raw_dnn.py:196 - train - INFO ] Arguments for the experiment
+{'backstitch_training_interval': 1,
+ 'backstitch_training_scale': 0.0,
+ 'cleanup': True,
+ 'cmvn_opts': None,
+ 'combine_sum_to_one_penalty': 0.0,
+ 'command': 'queue.pl -q tiger.gpu.q@tiger06  -q tiger.gpu.q@tiger05',
+ 'compute_average_posteriors': False,
+ 'compute_per_dim_accuracy': False,
+ 'dir': 'exp/xvector_nnet_1a',
+ 'do_final_combination': True,
+ 'dropout_schedule': '0,0@0.20,0.1@0.50,0',
+ 'egs_command': None,
+ 'egs_dir': 'exp/xvector_nnet_1a/egs',
+ 'egs_opts': None,
+ 'egs_stage': 0,
+ 'email': None,
+ 'exit_stage': None,
+ 'feat_dir': None,
+ 'final_effective_lrate': 0.0001,
+ 'frames_per_eg': 1,
+ 'image_augmentation_opts': None,
+ 'initial_effective_lrate': 0.001,
+ 'input_model': None,
+ 'max_lda_jobs': 10,
+ 'max_models_combine': 20,
+ 'max_objective_evaluations': 30,
+ 'max_param_change': 2.0,
+ 'minibatch_size': '64',
+ 'momentum': 0.5,
+ 'nj': 4,
+ 'num_epochs': 3.0,
+ 'num_jobs_compute_prior': 10,
+ 'num_jobs_final': 6,
+ 'num_jobs_initial': 3,
+ 'num_jobs_step': 1,
+ 'online_ivector_dir': None,
+ 'preserve_model_interval': 10,
+ 'presoftmax_prior_scale_power': -0.25,
+ 'prior_subset_size': 20000,
+ 'proportional_shrink': 10.0,
+ 'rand_prune': 4.0,
+ 'remove_egs': False,
+ 'reporting_interval': 0.1,
+ 'samples_per_iter': 400000,
+ 'shuffle_buffer_size': 1000,
+ 'srand': 123,
+ 'stage': 13,
+ 'targets_scp': None,
+ 'train_opts': [],
+ 'use_dense_targets': True,
+ 'use_gpu': 'wait'}
+2020-09-06 02:27:32,423 [steps/nnet3/train_raw_dnn.py:354 - train - INFO ] Training will run for 3.0 epochs = 59 iterations
+2020-09-06 02:27:32,423 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 13/58   Jobs: 4   Epoch: 0.47/3.0 (15.7% complete)   lr: 0.002785   shrink: 0.97215
+kangjiawen has deleted job 1484584
+kangjiawen has deleted job 1484586
+kangjiawen has deleted job 1484588
+kangjiawen has deleted job 1484585
+kangjiawen has deleted job 1484590
+kangjiawen has deleted job 1484587
+Caught a signal: Interrupted system call , deleting SGE task: 1484586 and exiting
+Caught a signal: Interrupted system call , deleting SGE task: 1484588 and exiting
+Caught a signal: Interrupted system call , deleting SGE task: 1484590 and exiting
+Caught a signal: Interrupted system call , deleting SGE task: 1484587 and exiting
+Caught a signal: Interrupted system call , deleting SGE task: 1484585 and exiting
+Caught a signal: Interrupted system call , deleting SGE task: 1484584 and exiting
+kangjiawen has deleted job 1484589
+Caught a signal: Interrupted system call , deleting SGE task: 1484589 and exiting
+2020-09-07 03:24:22,012 [steps/nnet3/train_raw_dnn.py:35 - <module> - INFO ] Starting raw DNN trainer (train_raw_dnn.py)
+2020-09-07 03:24:22,034 [steps/nnet3/train_raw_dnn.py:196 - train - INFO ] Arguments for the experiment
+{'backstitch_training_interval': 1,
+ 'backstitch_training_scale': 0.0,
+ 'cleanup': True,
+ 'cmvn_opts': None,
+ 'combine_sum_to_one_penalty': 0.0,
+ 'command': 'queue.pl -q tiger.gpu.q@tiger01  -q tiger.gpu.q@tiger02 -q tiger.gpu.q@tiger03',
+ 'compute_average_posteriors': False,
+ 'compute_per_dim_accuracy': False,
+ 'dir': 'exp/xvector_nnet_1a',
+ 'do_final_combination': True,
+ 'dropout_schedule': '0,0@0.20,0.1@0.50,0',
+ 'egs_command': None,
+ 'egs_dir': 'exp/xvector_nnet_1a/egs',
+ 'egs_opts': None,
+ 'egs_stage': 0,
+ 'email': None,
+ 'exit_stage': None,
+ 'feat_dir': None,
+ 'final_effective_lrate': 0.0001,
+ 'frames_per_eg': 1,
+ 'image_augmentation_opts': None,
+ 'initial_effective_lrate': 0.001,
+ 'input_model': None,
+ 'max_lda_jobs': 10,
+ 'max_models_combine': 20,
+ 'max_objective_evaluations': 30,
+ 'max_param_change': 2.0,
+ 'minibatch_size': '64',
+ 'momentum': 0.5,
+ 'nj': 4,
+ 'num_epochs': 3.0,
+ 'num_jobs_compute_prior': 10,
+ 'num_jobs_final': 6,
+ 'num_jobs_initial': 3,
+ 'num_jobs_step': 1,
+ 'online_ivector_dir': None,
+ 'preserve_model_interval': 10,
+ 'presoftmax_prior_scale_power': -0.25,
+ 'prior_subset_size': 20000,
+ 'proportional_shrink': 10.0,
+ 'rand_prune': 4.0,
+ 'remove_egs': False,
+ 'reporting_interval': 0.1,
+ 'samples_per_iter': 400000,
+ 'shuffle_buffer_size': 1000,
+ 'srand': 123,
+ 'stage': 15,
+ 'targets_scp': None,
+ 'train_opts': [],
+ 'use_dense_targets': True,
+ 'use_gpu': 'wait'}
+2020-09-07 03:24:22,038 [steps/nnet3/train_raw_dnn.py:354 - train - INFO ] Training will run for 3.0 epochs = 59 iterations
+2020-09-07 03:24:22,039 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 15/58   Jobs: 4   Epoch: 0.56/3.0 (18.7% complete)   lr: 0.002599   shrink: 0.97401
+2020-09-07 03:30:42,169 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 16/58   Jobs: 4   Epoch: 0.61/3.0 (20.2% complete)   lr: 0.002511   shrink: 0.97489
+2020-09-07 03:37:29,235 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 17/58   Jobs: 4   Epoch: 0.65/3.0 (21.7% complete)   lr: 0.002426   shrink: 0.97574
+2020-09-07 03:42:58,541 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 18/58   Jobs: 4   Epoch: 0.70/3.0 (23.2% complete)   lr: 0.002343   shrink: 0.97657
+2020-09-07 03:49:34,369 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 19/58   Jobs: 4   Epoch: 0.74/3.0 (24.7% complete)   lr: 0.002264   shrink: 0.97736
+2020-09-07 03:56:58,101 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 20/58   Jobs: 4   Epoch: 0.79/3.0 (26.2% complete)   lr: 0.002187   shrink: 0.97813
+2020-09-07 04:01:25,143 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 21/58   Jobs: 4   Epoch: 0.83/3.0 (27.7% complete)   lr: 0.002113   shrink: 0.97887
+2020-09-07 04:05:57,248 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 22/58   Jobs: 4   Epoch: 0.88/3.0 (29.2% complete)   lr: 0.002041   shrink: 0.97959
+2020-09-07 04:10:38,607 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 23/58   Jobs: 4   Epoch: 0.92/3.0 (30.7% complete)   lr: 0.001972   shrink: 0.98028
+2020-09-07 04:15:13,686 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 24/58   Jobs: 4   Epoch: 0.97/3.0 (32.2% complete)   lr: 0.001905   shrink: 0.98095
+2020-09-07 04:18:40,535 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 25/58   Jobs: 4   Epoch: 1.01/3.0 (33.7% complete)   lr: 0.001841   shrink: 0.98159
+2020-09-07 04:23:09,558 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 26/58   Jobs: 4   Epoch: 1.06/3.0 (35.2% complete)   lr: 0.001778   shrink: 0.98222
+2020-09-07 04:28:29,230 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 27/58   Jobs: 4   Epoch: 1.10/3.0 (36.7% complete)   lr: 0.001718   shrink: 0.98282
+2020-09-07 04:33:09,853 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 28/58   Jobs: 4   Epoch: 1.15/3.0 (38.2% complete)   lr: 0.001660   shrink: 0.98340
+2020-09-07 04:37:54,030 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 29/58   Jobs: 4   Epoch: 1.19/3.0 (39.7% complete)   lr: 0.001603   shrink: 0.98397
+2020-09-07 04:43:28,086 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 30/58   Jobs: 5   Epoch: 1.24/3.0 (41.2% complete)   lr: 0.001936   shrink: 0.98064
+2020-09-07 04:48:40,521 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 31/58   Jobs: 5   Epoch: 1.29/3.0 (43.1% complete)   lr: 0.001855   shrink: 0.98145
+2020-09-07 04:53:35,687 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 32/58   Jobs: 5   Epoch: 1.35/3.0 (44.9% complete)   lr: 0.001776   shrink: 0.98224
+2020-09-07 04:59:12,923 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 33/58   Jobs: 5   Epoch: 1.40/3.0 (46.8% complete)   lr: 0.001701   shrink: 0.98299
+2020-09-07 05:05:39,328 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 34/58   Jobs: 5   Epoch: 1.46/3.0 (48.7% complete)   lr: 0.001630   shrink: 0.98370
+2020-09-07 05:12:40,664 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 35/58   Jobs: 5   Epoch: 1.52/3.0 (50.6% complete)   lr: 0.001561   shrink: 0.98439
+2020-09-07 05:18:57,836 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 36/58   Jobs: 5   Epoch: 1.57/3.0 (52.4% complete)   lr: 0.001495   shrink: 0.98505
+2020-09-07 05:25:09,099 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 37/58   Jobs: 5   Epoch: 1.63/3.0 (54.3% complete)   lr: 0.001432   shrink: 0.98568
+2020-09-07 05:28:53,643 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 38/58   Jobs: 5   Epoch: 1.69/3.0 (56.2% complete)   lr: 0.001371   shrink: 0.98629
+2020-09-07 05:33:20,558 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 39/58   Jobs: 5   Epoch: 1.74/3.0 (58.1% complete)   lr: 0.001314   shrink: 0.98686
+2020-09-07 05:39:54,359 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 40/58   Jobs: 5   Epoch: 1.80/3.0 (59.9% complete)   lr: 0.001258   shrink: 0.98742
+2020-09-07 05:45:40,152 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 41/58   Jobs: 5   Epoch: 1.85/3.0 (61.8% complete)   lr: 0.001205   shrink: 0.98795
+2020-09-07 05:52:24,955 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 42/58   Jobs: 5   Epoch: 1.91/3.0 (63.7% complete)   lr: 0.001154   shrink: 0.98846
+2020-09-07 05:56:09,173 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 43/58   Jobs: 5   Epoch: 1.97/3.0 (65.5% complete)   lr: 0.001105   shrink: 0.98895
+2020-09-07 06:01:10,950 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 44/58   Jobs: 5   Epoch: 2.02/3.0 (67.4% complete)   lr: 0.001059   shrink: 0.98941
+2020-09-07 06:05:54,023 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 45/58   Jobs: 5   Epoch: 2.08/3.0 (69.3% complete)   lr: 0.001014   shrink: 0.98986
+2020-09-07 06:11:40,714 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 46/58   Jobs: 5   Epoch: 2.13/3.0 (71.2% complete)   lr: 0.000971   shrink: 0.99029
+2020-09-07 06:16:42,651 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 47/58   Jobs: 5   Epoch: 2.19/3.0 (73.0% complete)   lr: 0.000930   shrink: 0.99070
+2020-09-07 06:21:57,734 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 48/58   Jobs: 5   Epoch: 2.25/3.0 (74.9% complete)   lr: 0.000891   shrink: 0.99109
+2020-09-07 06:29:11,392 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 49/58   Jobs: 5   Epoch: 2.30/3.0 (76.8% complete)   lr: 0.000853   shrink: 0.99147
+2020-09-07 06:36:00,455 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 50/58   Jobs: 6   Epoch: 2.36/3.0 (78.7% complete)   lr: 0.000981   shrink: 0.99019
+2020-09-07 06:41:35,453 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 51/58   Jobs: 6   Epoch: 2.43/3.0 (80.9% complete)   lr: 0.000931   shrink: 0.99069
+2020-09-07 06:48:48,016 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 52/58   Jobs: 6   Epoch: 2.49/3.0 (83.1% complete)   lr: 0.000884   shrink: 0.99116
+2020-09-07 06:56:30,515 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 53/58   Jobs: 6   Epoch: 2.56/3.0 (85.4% complete)   lr: 0.000840   shrink: 0.99160
+2020-09-07 07:06:01,369 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 54/58   Jobs: 6   Epoch: 2.63/3.0 (87.6% complete)   lr: 0.000798   shrink: 0.99202
+2020-09-07 07:11:58,373 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 55/58   Jobs: 6   Epoch: 2.70/3.0 (89.9% complete)   lr: 0.000757   shrink: 0.99243
+2020-09-07 07:17:33,367 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 56/58   Jobs: 6   Epoch: 2.76/3.0 (92.1% complete)   lr: 0.000719   shrink: 0.99281
+2020-09-07 07:30:42,580 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 57/58   Jobs: 6   Epoch: 2.83/3.0 (94.4% complete)   lr: 0.000683   shrink: 0.99317
+2020-09-07 07:37:26,869 [steps/nnet3/train_raw_dnn.py:391 - train - INFO ] Iter: 58/58   Jobs: 6   Epoch: 2.90/3.0 (96.6% complete)   lr: 0.000600   shrink: 0.99400
+2020-09-07 07:42:33,165 [steps/nnet3/train_raw_dnn.py:443 - train - INFO ] Doing final combination to produce final.raw
+2020-09-07 07:42:33,165 [steps/libs/nnet3/train/frame_level_objf/common.py:491 - combine_models - INFO ] Combining set([40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]) models.
+2020-09-07 07:43:14,318 [steps/nnet3/train_raw_dnn.py:465 - train - INFO ] Cleaning up the experiment directory exp/xvector_nnet_1a
+exp/xvector_nnet_1a: num-iters=59 nj=3..6 num-params=5.0M dim=30->1000 combine=-0.03->-0.03 (over 14) loglike:train/valid[38,58]=(-0.0179,-0.0157/-0.88,-0.92) accuracy:train/valid[38,58]=(1.0000,1.0000/0.823,0.823)
+steps/nnet3/train_raw_dnn.py --stage=15 --cmd=queue.pl -q tiger.gpu.q@tiger01  -q tiger.gpu.q@tiger02 -q tiger.gpu.q@tiger03 --trainer.optimization.proportional-shrink 10 --trainer.optimization.momentum=0.5 --trainer.optimization.num-jobs-initial=3 --trainer.optimization.num-jobs-final=6 --trainer.optimization.initial-effective-lrate=0.001 --trainer.optimization.final-effective-lrate=0.0001 --trainer.optimization.minibatch-size=64 --trainer.srand=123 --trainer.max-param-change=2 --trainer.num-epochs=3 --trainer.dropout-schedule=0,0@0.20,0.1@0.50,0 --trainer.shuffle-buffer-size=1000 --egs.frames-per-eg=1 --egs.dir=exp/xvector_nnet_1a/egs --cleanup.remove-egs false --cleanup.preserve-model-interval=10 --use-gpu=wait --dir=exp/xvector_nnet_1a
+['steps/nnet3/train_raw_dnn.py', '--stage=15', '--cmd=queue.pl -q tiger.gpu.q@tiger01  -q tiger.gpu.q@tiger02 -q tiger.gpu.q@tiger03', '--trainer.optimization.proportional-shrink', '10', '--trainer.optimization.momentum=0.5', '--trainer.optimization.num-jobs-initial=3', '--trainer.optimization.num-jobs-final=6', '--trainer.optimization.initial-effective-lrate=0.001', '--trainer.optimization.final-effective-lrate=0.0001', '--trainer.optimization.minibatch-size=64', '--trainer.srand=123', '--trainer.max-param-change=2', '--trainer.num-epochs=3', '--trainer.dropout-schedule=0,0@0.20,0.1@0.50,0', '--trainer.shuffle-buffer-size=1000', '--egs.frames-per-eg=1', '--egs.dir=exp/xvector_nnet_1a/egs', '--cleanup.remove-egs', 'false', '--cleanup.preserve-model-interval=10', '--use-gpu=wait', '--dir=exp/xvector_nnet_1a']
+sid/nnet3/xvector/extract_xvectors.sh --cmd queue.pl -l arch=*64*  -q tiger.cpu.q@tiger04 -q tiger.cpu.q@tiger05 -q tiger.cpu.q@tiger06 --nj 10 exp/xvector_nnet_1a data/voxceleb exp/xvector_nnet_1a/xvectors_train_no_sil
+sid/nnet3/xvector/extract_xvectors.sh: using exp/xvector_nnet_1a/extract.config to extract xvectors
+sid/nnet3/xvector/extract_xvectors.sh: extracting xvectors for data/voxceleb
+sid/nnet3/xvector/extract_xvectors.sh: extracting xvectors from nnet
+sid/nnet3/xvector/extract_xvectors.sh: combining xvectors across jobs
+sid/nnet3/xvector/extract_xvectors.sh: computing mean of xvectors for each speaker
+sid/nnet3/xvector/extract_xvectors.sh --cmd queue.pl -l arch=*64*  -q tiger.cpu.q@tiger04 -q tiger.cpu.q@tiger05 -q tiger.cpu.q@tiger06 --nj 10 exp/xvector_nnet_1a data/sitw_eval_enroll exp/xvector_nnet_1a/xvectors_sitw_eval_enroll
+sid/nnet3/xvector/extract_xvectors.sh: using exp/xvector_nnet_1a/extract.config to extract xvectors
+sid/nnet3/xvector/extract_xvectors.sh: extracting xvectors for data/sitw_eval_enroll
+sid/nnet3/xvector/extract_xvectors.sh: extracting xvectors from nnet
+sid/nnet3/xvector/extract_xvectors.sh: combining xvectors across jobs
+sid/nnet3/xvector/extract_xvectors.sh: computing mean of xvectors for each speaker
+sid/nnet3/xvector/extract_xvectors.sh --cmd queue.pl -l arch=*64*  -q tiger.cpu.q@tiger04 -q tiger.cpu.q@tiger05 -q tiger.cpu.q@tiger06 --nj 10 exp/xvector_nnet_1a data/sitw_eval_test exp/xvector_nnet_1a/xvectors_sitw_eval_test
+sid/nnet3/xvector/extract_xvectors.sh: using exp/xvector_nnet_1a/extract.config to extract xvectors
+sid/nnet3/xvector/extract_xvectors.sh: extracting xvectors for data/sitw_eval_test
+sid/nnet3/xvector/extract_xvectors.sh: extracting xvectors from nnet
+sid/nnet3/xvector/extract_xvectors.sh: combining xvectors across jobs
+sid/nnet3/xvector/extract_xvectors.sh: computing mean of xvectors for each speaker
+sid/nnet3/xvector/extract_xvectors.sh --cmd queue.pl -l arch=*64*  -q tiger.cpu.q@tiger04 -q tiger.cpu.q@tiger05 -q tiger.cpu.q@tiger06 --nj 10 exp/xvector_nnet_1a data/sitw_dev_enroll exp/xvector_nnet_1a/xvectors_sitw_dev_enroll
+sid/nnet3/xvector/extract_xvectors.sh: using exp/xvector_nnet_1a/extract.config to extract xvectors
+sid/nnet3/xvector/extract_xvectors.sh: extracting xvectors for data/sitw_dev_enroll
+sid/nnet3/xvector/extract_xvectors.sh: extracting xvectors from nnet
+sid/nnet3/xvector/extract_xvectors.sh: combining xvectors across jobs
+sid/nnet3/xvector/extract_xvectors.sh: computing mean of xvectors for each speaker
+sid/nnet3/xvector/extract_xvectors.sh --cmd queue.pl -l arch=*64*  -q tiger.cpu.q@tiger04 -q tiger.cpu.q@tiger05 -q tiger.cpu.q@tiger06 --nj 10 exp/xvector_nnet_1a data/sitw_dev_test exp/xvector_nnet_1a/xvectors_sitw_dev_test
+sid/nnet3/xvector/extract_xvectors.sh: using exp/xvector_nnet_1a/extract.config to extract xvectors
+sid/nnet3/xvector/extract_xvectors.sh: extracting xvectors for data/sitw_dev_test
+sid/nnet3/xvector/extract_xvectors.sh: extracting xvectors from nnet
+sid/nnet3/xvector/extract_xvectors.sh: combining xvectors across jobs
+sid/nnet3/xvector/extract_xvectors.sh: computing mean of xvectors for each speaker
+SITW DEV:
+tools/compute_eer.sh --lda-dim 150 xvector.scp exp/xvector_nnet_1a/xvectors_train_no_sil exp/xvector_nnet_1a/xvectors_sitw_dev_enroll exp/xvector_nnet_1a/xvectors_sitw_dev_test data/sitw_dev_test/trials/core-core.lst scores/sitw_dev
+tools/cosine_scoring.sh xvector.scp exp/xvector_nnet_1a/xvectors_train_no_sil exp/xvector_nnet_1a/xvectors_sitw_dev_enroll exp/xvector_nnet_1a/xvectors_sitw_dev_test data/sitw_dev_test/trials/core-core.lst scores/sitw_dev
+Cosine EER: 17.98%
+tools/lda_plda_scoring.sh --lda-dim 150 --covar-factor 0.0 --simple-length-norm true xvector.scp exp/xvector_nnet_1a/xvectors_train_no_sil exp/xvector_nnet_1a/xvectors_sitw_dev_enroll exp/xvector_nnet_1a/xvectors_sitw_dev_test data/sitw_dev_test/trials/core-core.lst scores/sitw_dev
+LDA_PLDA EER: 9.164%
+SITW EVAL:
+tools/compute_eer.sh --lda-dim 150 xvector.scp exp/xvector_nnet_1a/xvectors_train_no_sil exp/xvector_nnet_1a/xvectors_sitw_eval_enroll exp/xvector_nnet_1a/xvectors_sitw_eval_test data/sitw_eval_test/trials/core-core.lst scores/sitw_eval
+tools/cosine_scoring.sh xvector.scp exp/xvector_nnet_1a/xvectors_train_no_sil exp/xvector_nnet_1a/xvectors_sitw_eval_enroll exp/xvector_nnet_1a/xvectors_sitw_eval_test data/sitw_eval_test/trials/core-core.lst scores/sitw_eval
+Cosine EER: 19.08%
+tools/lda_plda_scoring.sh --lda-dim 150 --covar-factor 0.0 --simple-length-norm true xvector.scp exp/xvector_nnet_1a/xvectors_train_no_sil exp/xvector_nnet_1a/xvectors_sitw_eval_enroll exp/xvector_nnet_1a/xvectors_sitw_eval_test data/sitw_eval_test/trials/core-core.lst scores/sitw_eval
+LDA_PLDA EER: 10.33%
